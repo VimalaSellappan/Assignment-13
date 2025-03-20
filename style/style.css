@@ -29,6 +29,21 @@
     gap:30px;
     padding-right: 80px;
 }
+.tabs{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.tabs a{
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: black;
+}
+.tabs a:hover{
+    color:blue;
+}
+
 .bottom_container{
     display: flex;
     justify-content: center;
@@ -83,3 +98,14 @@ h1{
     }
     
 }
+picture img {
+    width: 100%;
+    height: auto; 
+  }
+
+  @media (min-width: 1200px) {
+    picture img {
+      height: 500px; 
+      object-fit: cover; 
+    }
+  }

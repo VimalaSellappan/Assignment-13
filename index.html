@@ -15,15 +15,22 @@
         <div class="top_container">
             <div class="head">Head.</div>
             <div class="navigation_container">
-                <div>Works</div>
-                <div>Services</div>
-                <div>Contacts</div>
-            </div>
+              <ul class="tabs">
+                <li><a href="works.html">Works</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+              </ul>
+          </div>
         </div>
         <div class="bottom_container">
           <h1>Patagonia</h1>
           <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
-          <img src="image/Image.jpg" alt="Horses in Desert">
+          <picture>
+            <source srcset="image/Imagesmall.png" media="(max-width: 600px)" alt="Horses in Desert">
+            <source srcset="image/Imagemedium.jpg" media="(max-width: 1200px)" alt="Horses in Desert">
+            <img src="image/Imagelarge.jpg" alt="Horses in Desert">
+        </picture>
         </div>
     </main>
   </body>  
+</html>
